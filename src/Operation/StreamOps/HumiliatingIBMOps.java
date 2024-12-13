@@ -5,6 +5,7 @@ import Operation.StringOps.CoolStringProb;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class HumiliatingIBMOps {
 
@@ -29,5 +30,11 @@ public class HumiliatingIBMOps {
         });
         System.out.print("\nFEMALE AGE:"+(fAge/fEmp.size()));
         System.out.print("\nMALE AGE:"+(mAge/mEmp.size()));
+        /*Integer fSum=0;
+        List<Integer> fa=employeeList.stream().filter(employee -> employee.getGender()
+        .equals("Female")) //Stream<Employee>
+        .map(Employee::getAge).toList();
+        int fTA = fa.stream().mapToInt(Integer :: intValue).sum();
+        System.out.print("\nSUM:"+fTA/fa.size());*/
     }
 }
