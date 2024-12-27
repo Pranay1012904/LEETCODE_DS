@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Operation/StringOps/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/StringOps/ValidParathesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/AVGTEMP/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/AVGTEMP/DaysAbvAvg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/AVGTEMP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/FindMiddleIndexDeclarative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/FindMiddleIndexImperative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/MyOneDemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/StringOps/LongestPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/StringOps/LongestPrefix.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,30 +51,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.LengthOfLastWord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidParathesis.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpace/LEETCODE_DS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.FindMiddleIndex.executor": "Run",
+    "Application.FindMiddleIndexImperative.executor": "Run",
+    "Application.LengthOfLastWord.executor": "Run",
+    "Application.LongestPrefix.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Operation.Arrays.SampleOneDime.Main.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.ValidParathesis.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WorkSpace/Lambda_Streams"
   }
-}</component>
-  <component name="RunManager" selected="Application.ValidParathesis">
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.StringOps.LengthOfLastWord" />
+}]]></component>
+  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedArray">
+    <configuration name="FindMiddleIndexDeclarative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SampleOneDime.FindMiddleIndexDeclarative" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.StringOps.*" />
+          <option name="PATTERN" value="Operation.Arrays.SampleOneDime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.StringOps.LongestPrefix" />
+    <configuration name="FindMiddleIndexImperative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SampleOneDime.FindMiddleIndexImperative" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.StringOps.*" />
+          <option name="PATTERN" value="Operation.Arrays.SampleOneDime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,18 +100,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DataStructures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.StringOps.RomanToInteger" />
+      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SampleOneDime.AVGTEMP.Main" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.StringOps.*" />
+          <option name="PATTERN" value="Operation.Arrays.SampleOneDime.AVGTEMP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +112,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParathesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.StringOps.ValidParathesis" />
+    <configuration name="Operation.Arrays.SampleOneDime.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SampleOneDime.Main" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.StringOps.*" />
+          <option name="PATTERN" value="Operation.Arrays.SampleOneDime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SampleOneDime.RemoveDuplicatesFromSortedArray" />
+      <module name="LEETCODE_DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Operation.Arrays.SampleOneDime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidParathesis" />
-        <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.LongestPrefix" />
-        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application.FindMiddleIndexImperative" />
+        <item itemvalue="Application.FindMiddleIndexDeclarative" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Operation.Arrays.SampleOneDime.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,8 +190,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Operation/StringOps/ValidParathesis.java</url>
-          <line>16</line>
+          <line>15</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/FindMiddleIndexDeclarative.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/AVGTEMP/Main.java</url>
+          <line>6</line>
+          <properties class="Operation.Arrays.SampleOneDime.AVGTEMP.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Operation/Arrays/SampleOneDime/FindMiddleIndexImperative.java</url>
+          <line>7</line>
+          <properties class="Operation.Arrays.SampleOneDime.FindMiddleIndexImperative" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
