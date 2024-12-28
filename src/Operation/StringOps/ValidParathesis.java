@@ -9,7 +9,7 @@ public class ValidParathesis {
     }
 
     public static void validity() {
-        String regex = "[]{}()";
+        String regex = "[(])";
 
         List<String> regList = Arrays.asList(regex.split(""));//note it down
         int size = regList.size();
