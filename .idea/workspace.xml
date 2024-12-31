@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added Binary Problem">
-      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/MinimumCostForTickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java" afterDir="false" />
+    <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added valid palindrome prob">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SerachInsertionPosition_Sol2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SerachInsertionPosition_Sol2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operation/Arrays/SerachInsertionPosition_Sol2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/Arrays/SerachInsertionPosition_Sol2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735648404056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added valid palindrome prob">
+      <option name="closed" value="true" />
+      <created>1735680148649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735680148651</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added new problems" />
     <MESSAGE value="Added Binary Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Binary Problem" />
+    <MESSAGE value="Added valid palindrome prob" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added valid palindrome prob" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,12 +253,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java</url>
-          <line>17</line>
+          <line>39</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java</url>
-          <line>14</line>
+          <line>36</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
