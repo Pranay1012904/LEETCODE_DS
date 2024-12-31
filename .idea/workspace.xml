@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added new problems">
-      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/BestScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/Instertion2DSample/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/Instertion2DSample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/Sample_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/Arrays_2D/BestScores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/Arrays_2D/BestScores.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.BestScores.executor": "Run",
+    "Application.AddBinaryProblem.executor": "Debug",
+    "Application.BestScores.executor": "Debug",
     "Application.FindMiddleIndex.executor": "Run",
     "Application.FindMiddleIndexImperative.executor": "Run",
     "Application.LengthOfLastWord.executor": "Run",
@@ -72,7 +71,20 @@
     "last_opened_file_path": "D:/WorkSpace/Microservices-Architecture"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BestScores">
+  <component name="RunManager" selected="Application.AddBinaryProblem">
+    <configuration name="AddBinaryProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.StringOps.AddBinaryProblem" />
+      <module name="LEETCODE_DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Operation.StringOps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BestScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Operation.Arrays.Arrays_2D.BestScores" />
       <module name="LEETCODE_DS" />
@@ -125,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParathesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.StringOps.ValidParathesis" />
-      <module name="LEETCODE_DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Operation.StringOps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddBinaryProblem" />
         <item itemvalue="Application.BestScores" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Sample_1" />
         <item itemvalue="Application.SerachInsertionPosition_Sol2" />
-        <item itemvalue="Application.ValidParathesis" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +214,16 @@
           <url>file://$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/Instertion2DSample/Insertion.java</url>
           <line>20</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Operation/Arrays/AVGTEMP/Main.java</url>
