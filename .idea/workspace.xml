@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SearchInsertionPosition_Sol1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/SerachInsertionPosition_Sol2.java" afterDir="false" />
+    <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added new problems">
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/BestScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/Instertion2DSample/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/Instertion2DSample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/Sample_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SampleOneDime/AVGTEMP/Average.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SampleOneDime/AVGTEMP/DaysAbvAvg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SampleOneDime/AVGTEMP/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SampleOneDime/FindMiddleIndexDeclarative.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SampleOneDime/FindMiddleIndexImperative.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SampleOneDime/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SampleOneDime/MyOneDemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SampleOneDime/RemoveDuplicatesFromSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/StringOps/ValidParathesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/StringOps/ValidParathesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operation/StringOps/ValidParathesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/StringOps/ValidParathesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.BestScores.executor": "Run",
     "Application.FindMiddleIndex.executor": "Run",
     "Application.FindMiddleIndexImperative.executor": "Run",
     "Application.LengthOfLastWord.executor": "Run",
@@ -66,24 +59,26 @@
     "Application.Operation.Arrays.SampleOneDime.Main.executor": "Run",
     "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
+    "Application.Sample_1.executor": "Run",
     "Application.SerachInsertionPosition_Sol2.executor": "Run",
     "Application.ValidParathesis.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WorkSpace/Lambda_Streams"
+    "last_opened_file_path": "D:/WorkSpace/Microservices-Architecture"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SerachInsertionPosition_Sol2">
-    <configuration name="FindMiddleIndexDeclarative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SampleOneDime.FindMiddleIndexDeclarative" />
+  <component name="RunManager" selected="Application.BestScores">
+    <configuration name="BestScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.Arrays_2D.BestScores" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.Arrays.SampleOneDime.*" />
+          <option name="PATTERN" value="Operation.Arrays.Arrays_2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMiddleIndexImperative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SampleOneDime.FindMiddleIndexImperative" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.Arrays_2D.Instertion2DSample.Main" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.Arrays.SampleOneDime.*" />
+          <option name="PATTERN" value="Operation.Arrays.Arrays_2D.Instertion2DSample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SampleOneDime.RemoveDuplicatesFromSortedArray" />
+    <configuration name="Sample_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.Arrays_2D.Sample_1" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.Arrays.SampleOneDime.*" />
+          <option name="PATTERN" value="Operation.Arrays.Arrays_2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BestScores" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Sample_1" />
         <item itemvalue="Application.SerachInsertionPosition_Sol2" />
         <item itemvalue="Application.ValidParathesis" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
-        <item itemvalue="Application.FindMiddleIndexImperative" />
-        <item itemvalue="Application.FindMiddleIndexDeclarative" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +157,15 @@
       <option name="presentableId" value="Default" />
       <updated>1733224618665</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added new problems">
+      <option name="closed" value="true" />
+      <created>1735385362641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735385362642</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +178,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -202,6 +210,11 @@
           <url>file://$PROJECT_DIR$/src/Operation/Arrays/FindMiddleIndexDeclarative.java</url>
           <line>25</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Operation/Arrays/Arrays_2D/Instertion2DSample/Insertion.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Operation/Arrays/AVGTEMP/Main.java</url>
