@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added new problems">
-      <change afterPath="$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java" afterDir="false" />
+    <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added Binary Problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/Arrays_2D/BestScores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/Arrays_2D/BestScores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/MyOneDemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/MyOneDemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operation/Arrays/MyOneDemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/Arrays/MyOneDemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.AddBinaryProblem.executor": "Debug",
+    "Application.AddBinaryProblem.executor": "Run",
     "Application.BestScores.executor": "Debug",
     "Application.FindMiddleIndex.executor": "Run",
     "Application.FindMiddleIndexImperative.executor": "Run",
@@ -164,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735385362642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Binary Problem">
+      <option name="closed" value="true" />
+      <created>1735644397784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735644397784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added new problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new problems" />
+    <MESSAGE value="Added Binary Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Binary Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,14 +226,14 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/src/Operation/Arrays/MyOneDemon.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="25" />
+          <line>22</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Operation/Arrays/AVGTEMP/Main.java</url>

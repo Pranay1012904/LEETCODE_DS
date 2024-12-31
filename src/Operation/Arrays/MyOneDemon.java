@@ -13,6 +13,7 @@ public class MyOneDemon {
     }
 
     public void insert(int location, int data){
+
         try {
             if (arr[location] == Integer.MIN_VALUE) {
                 arr[location] = data;

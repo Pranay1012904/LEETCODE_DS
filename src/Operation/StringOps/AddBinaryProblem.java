@@ -14,70 +14,19 @@ public class AddBinaryProblem {
     }
 
     public static String addBinary(String a, String b) {
-        Long intA= getDecimal(a);
-        Long intB= getDecimal(b);
-        BigInteger sum=BigInteger.valueOf(intA + intB);
+       int al=a.length()-1;
+       int bl=b.length()-1;
+       int carry=0;
+       StringBuilder res=new StringBuilder();
+       while(al>=0 || bl>=0){
+           int sum=carry;
+        if(al>=0)  sum+= a.charAt(al--)-'0';
+        if(bl>=0)   sum+= b.charAt(bl--)-'0';
+        carry=sum>1?1:0;
+        res.append(sum%2);
+       }
+       if(carry!=0) res.append(carry);
 
-        return decimalToBinary(sum);
+       return res.reverse().toString();
     }
-
-
-    private static Long getDecimal(String v){
-        char[] binaryArr=v.toCharArray();
-        Long sum=0L;
-        Long pow=0L;
-        for(int i=binaryArr.length-1;i>=0;i--){
-            sum+=  Long.parseLong(String.valueOf(binaryArr[i]))*(long) Math.pow(2,pow);///(((int)binaryArr[i])*Math.pow(2,pow));
-            pow++;
-        }
-
-        return sum;
-    }
-
-    public static String decimalToBinary(BigInteger d){
-        List<BigInteger> binList=new ArrayList<>();
-
-        while(!d.equals(BigInteger.valueOf(1))){
-
-            binList.add(d.remainder(BigInteger.valueOf(2)));
-            d=d.divide(BigInteger.valueOf(2));
-            if(d.equals(1))
-                binList.add(d);
-        }
-        String bString="";
-        for(int i=binList.size()-1;i>=0;i--){
-            bString=bString.concat(String.valueOf(binList.get(i)));
-        }
-        return bString;
-    }
-    //1011101000101011001000011011000001100011110011010010010111100000
-    //110111101100010011000101110110100000011101000101011001000011011000001100011110011010010011000000000
-
-    /* The Real Sol_n
-     StringBuilder res = new StringBuilder();
-        int i = a.length() - 1;
-        int j = b.length() - 1;
-        int carry = 0;
-        while(i >= 0 || j >= 0){
-            int sum = carry;
-            if(i >= 0) sum += a.charAt(i--) - '0';
-            if(j >= 0) sum += b.charAt(j--) - '0';
-            carry = sum > 1 ? 1 : 0;
-            res.append(sum % 2);
-        }
-        if(carry != 0) res.append(carry);
-        return res.reverse().toString();
-    }
-
-    private static Long getDecimal(String v){
-        char[] binaryArr=v.toCharArray();
-        Long sum=0L;
-        Long pow=0L;
-        for(int i=binaryArr.length-1;i>=0;i--){
-             //sum+= (int)(Integer.valueOf(binaryArr[i])*Math.pow(2,pow));
-             sum+= (Long.parseLong(String.valueOf(binaryArr[i]))*(long)Math.pow(2,pow));
-             pow++;
-        }
-        return sum;
-     */
 }
