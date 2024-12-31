@@ -30,7 +30,8 @@ nums contains distinct values sorted in ascending order.
 //If you create a IntegerList out of int array using Assays.asList(arr)
 //You Wont be able to add and int value to the list eg intList.add(5)------- illegal operation!
 //so create a List<Integer> the add values from arr one by one using for(int i: arr)
-public class SerachInsertionPosition_Sol2 {
+public class
+SerachInsertionPosition_Sol2 {
 
     static public void main(String[] args){
         int[] nums=new int[]{1,3,5,6};

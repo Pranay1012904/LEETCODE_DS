@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added Binary Problem">
+      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/MinimumCostForTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/MyOneDemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/MyOneDemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operation/Arrays/MyOneDemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/Arrays/MyOneDemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SerachInsertionPosition_Sol2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE_DS/Operation/Arrays/SerachInsertionPosition_Sol2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operation/Arrays/SerachInsertionPosition_Sol2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/Arrays/SerachInsertionPosition_Sol2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,7 @@
     "Application.Sample_1.executor": "Run",
     "Application.SerachInsertionPosition_Sol2.executor": "Run",
     "Application.ValidParathesis.executor": "Run",
+    "Application.Valid_Palindrome.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -72,7 +74,7 @@
     "last_opened_file_path": "D:/WorkSpace/Microservices-Architecture"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AddBinaryProblem">
+  <component name="RunManager" selected="Application.Valid_Palindrome">
     <configuration name="AddBinaryProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Operation.StringOps.AddBinaryProblem" />
       <module name="LEETCODE_DS" />
@@ -125,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerachInsertionPosition_Sol2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.SerachInsertionPosition_Sol2" />
+    <configuration name="Valid_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.StringOps.Valid_Palindrome" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.Arrays.*" />
+          <option name="PATTERN" value="Operation.StringOps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Valid_Palindrome" />
         <item itemvalue="Application.AddBinaryProblem" />
         <item itemvalue="Application.BestScores" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Sample_1" />
-        <item itemvalue="Application.SerachInsertionPosition_Sol2" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735644397784</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Binary Problem">
+      <option name="closed" value="true" />
+      <created>1735648404056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735648404056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,8 +242,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Operation/StringOps/AddBinaryProblem.java</url>
-          <line>22</line>
+          <line>20</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Operation/Arrays/AVGTEMP/Main.java</url>
