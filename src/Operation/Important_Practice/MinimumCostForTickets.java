@@ -29,13 +29,32 @@ Explanation: For example, here is one way to buy passes that lets you travel you
 On day 1, you bought a 30-day pass for costs[2] = $15 which covered days 1, 2, ..., 30.
 On day 31, you bought a 1-day pass for costs[0] = $2 which covered day 31.
 In total, you spent $17 and covered all the days of your travel.
-
+----->days = [1,2,3,4,5,6,7,8,9,10,30,31], costs = [2,7,15]
+----->days = [1,4,6,7,8,20], costs = [2,7,15]
 Constraints:
 1 <= days.length <= 365
 1 <= days[i] <= 365
 days is in strictly increasing order.
 costs.length == 3
 1 <= costs[i] <= 1000
+SOLUTION:: https://leetcode.com/problems/minimum-cost-for-tickets/solutions/6207059/easy-100-beats-proof-java-detailed-explained-concise-code-for-beginners
  */
 public class MinimumCostForTickets     {
+
+    public static void main(String[] args){
+        int k;
+        boolean[] b=new boolean[5];
+        int[] a=new int[5];
+        for(boolean i: b)
+            System.out.print(i);
+        for(int i: a)
+            System.out.print(i);
+        char[] gg=new char[5];
+        for(char g: gg)
+            System.out.print(g);
+    //System.out.print("\n\n"+k);
+
+
+    }
+
 }
