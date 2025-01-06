@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added few problems">
-      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/FindMaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Arrays/FindSecondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/KadanesAlgo/BruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/KadanesAlgo/KadaneAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/SumOfDigitsOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/SumOfUniqueElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Playground/LongestSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTestCases/KadaneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTestCases/SumOfUniqueElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LEETCODE_DS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LEETCODE_DS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -51,12 +58,15 @@
     "Application.AddBinaryProblem.executor": "Run",
     "Application.BestScores.executor": "Debug",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.BruteForce.executor": "Run",
     "Application.FindMaxMin.executor": "Run",
     "Application.FindMiddleIndex.executor": "Run",
     "Application.FindMiddleIndexImperative.executor": "Run",
     "Application.FindSecondLargest.executor": "Run",
+    "Application.KadaneAlgo.executor": "Run",
     "Application.LengthOfLastWord.executor": "Run",
     "Application.LongestPrefix.executor": "Run",
+    "Application.LongestSequence.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MinimumCostForTickets.executor": "Run",
     "Application.Operation.Arrays.SampleOneDime.Main.executor": "Run",
@@ -64,30 +74,49 @@
     "Application.RomanToInteger.executor": "Run",
     "Application.Sample_1.executor": "Run",
     "Application.SerachInsertionPosition_Sol2.executor": "Run",
+    "Application.SumOfDigitsOfString.executor": "Debug",
     "Application.ValidParathesis.executor": "Run",
     "Application.Valid_Palindrome.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.KadaneTest.kadaneTest.executor": "Run",
+    "JUnit.SumOfUniqueElementsTest.sampleTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WorkSpace/LEETCODE_DS"
+    "last_opened_file_path": "D:/WorkSpace/LEETCODE_DS",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="UnitTestCases" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Operation.Important_Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindSecondLargest">
-    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.BestTimeToBuyAndSellStock" />
+  <component name="RunManager" selected="JUnit.KadaneTest.kadaneTest">
+    <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Important_Practice.KadanesAlgo.BruteForce" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.Arrays.*" />
+          <option name="PATTERN" value="Operation.Important_Practice.KadanesAlgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.FindMaxMin" />
+    <configuration name="KadaneAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Important_Practice.KadanesAlgo.KadaneAlgo" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.Arrays.*" />
+          <option name="PATTERN" value="Operation.Important_Practice.KadanesAlgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,21 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Arrays.FindSecondLargest" />
-      <module name="LEETCODE_DS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Operation.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumCostForTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Important_Practice.MinimumCostForTickets" />
+    <configuration name="SumOfDigitsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Important_Practice.SumOfDigitsOfString" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
@@ -134,26 +150,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Valid_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.StringOps.Valid_Palindrome" />
+    <configuration name="KadaneTest.kadaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.StringOps.*" />
+          <option name="PATTERN" value="UnitTestCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UnitTestCases" />
+      <option name="MAIN_CLASS_NAME" value="UnitTestCases.KadaneTest" />
+      <option name="METHOD_NAME" value="kadaneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfUniqueElementsTest.sampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LEETCODE_DS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTestCases" />
+      <option name="MAIN_CLASS_NAME" value="UnitTestCases.SumOfUniqueElementsTest" />
+      <option name="METHOD_NAME" value="sampleTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindSecondLargest" />
-        <item itemvalue="Application.FindMaxMin" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
-        <item itemvalue="Application.MinimumCostForTickets" />
-        <item itemvalue="Application.Valid_Palindrome" />
+        <item itemvalue="JUnit.KadaneTest.kadaneTest" />
+        <item itemvalue="Application.KadaneAlgo" />
+        <item itemvalue="Application.BruteForce" />
+        <item itemvalue="JUnit.SumOfUniqueElementsTest.sampleTest" />
+        <item itemvalue="Application.SumOfDigitsOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735758767537</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added few problems">
+      <option name="closed" value="true" />
+      <created>1736010604510</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736010604510</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
