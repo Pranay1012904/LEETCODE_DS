@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added few problems">
-      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/KadanesAlgo/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/KadanesAlgo/KadaneAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/SumOfDigitsOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/SumOfUniqueElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operation/Playground/LongestSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTestCases/KadaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTestCases/SumOfUniqueElementsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LEETCODE_DS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LEETCODE_DS.iml" afterDir="false" />
+    <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added few problems and test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operation/Important_Practice/KadanesAlgo/KadaneAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/KadanesAlgo/KadaneAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736010604510</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added few problems and test cases">
+      <option name="closed" value="true" />
+      <created>1736138982989</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736138982989</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +277,8 @@
     <MESSAGE value="Added Binary Problem" />
     <MESSAGE value="Added valid palindrome prob" />
     <MESSAGE value="Added few problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added few problems" />
+    <MESSAGE value="Added few problems and test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added few problems and test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

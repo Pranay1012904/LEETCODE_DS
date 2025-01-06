@@ -11,7 +11,7 @@ public class KadaneAlgo {
     }
 
     public static int Kadane(int[] nums){
-        int sum=0; int maxi=0;
+        int sum=0; int maxi=Integer.MIN_VALUE;// take maxi as Integer.MIN_VALUE for cases like [-10,-3,-5,-2,-6]
 
         for(int i=0;i<nums.length;i++){
              sum+=nums[i];
