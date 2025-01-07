@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c6bfc6-b30f-4ced-8bb5-0932b1a7bb65" name="Changes" comment="Added few problems and test cases">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/IsUnique_217/BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LEETCODE_DS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LEETCODE_DS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operation/Important_Practice/KadanesAlgo/KadaneAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operation/Important_Practice/KadanesAlgo/KadaneAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -52,6 +57,7 @@
     "Application.BestScores.executor": "Debug",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.BruteForce.executor": "Run",
+    "Application.BubbleSort.executor": "Debug",
     "Application.FindMaxMin.executor": "Run",
     "Application.FindMiddleIndex.executor": "Run",
     "Application.FindMiddleIndexImperative.executor": "Run",
@@ -103,7 +109,7 @@
       <recent name="Operation.Important_Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KadaneTest.kadaneTest">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Operation.Important_Practice.KadanesAlgo.BruteForce" />
       <module name="LEETCODE_DS" />
@@ -117,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KadaneAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Important_Practice.KadanesAlgo.KadaneAlgo" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Sorting_Algos.BubbleSort" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.Important_Practice.KadanesAlgo.*" />
+          <option name="PATTERN" value="Operation.Sorting_Algos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigitsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operation.Important_Practice.SumOfDigitsOfString" />
+    <configuration name="KadaneAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Operation.Important_Practice.KadanesAlgo.KadaneAlgo" />
       <module name="LEETCODE_DS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Operation.Important_Practice.*" />
+          <option name="PATTERN" value="Operation.Important_Practice.KadanesAlgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="JUnit.KadaneTest.kadaneTest" />
         <item itemvalue="Application.KadaneAlgo" />
         <item itemvalue="Application.BruteForce" />
         <item itemvalue="JUnit.SumOfUniqueElementsTest.sampleTest" />
-        <item itemvalue="Application.SumOfDigitsOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736138982989</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added few problems and test cases">
+      <option name="closed" value="true" />
+      <created>1736139484346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736139484346</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +346,11 @@
           <url>file://$PROJECT_DIR$/src/Operation/StringOps/Valid_Palindrome.java</url>
           <line>36</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Operation/Sorting_Algos/BubbleSort.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Operation/Arrays/AVGTEMP/Main.java</url>
